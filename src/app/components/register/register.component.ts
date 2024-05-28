@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-
+import { MaterialModule } from '../../material/material.module'
 @Component({
   selector: 'app-register',
   standalone: true,
-  imports: [ReactiveFormsModule],
+  imports: [ReactiveFormsModule,MaterialModule],
   templateUrl: './register.component.html',
   styleUrl: './register.component.scss'
 })
